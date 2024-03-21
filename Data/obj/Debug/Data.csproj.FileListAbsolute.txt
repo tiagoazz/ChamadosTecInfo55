@@ -7,3 +7,12 @@ C:\Users\rodolfo.lgouveia\source\repos\TecInfo55-main\Data\obj\Debug\Data.csproj
 C:\Users\rodolfo.lgouveia\source\repos\TecInfo55-main\Data\obj\Debug\Data.csproj.CopyComplete
 C:\Users\rodolfo.lgouveia\source\repos\TecInfo55-main\Data\obj\Debug\Data.dll
 C:\Users\rodolfo.lgouveia\source\repos\TecInfo55-main\Data\obj\Debug\Data.pdb
+C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\Data\bin\Debug\Data.dll
+C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\Data\bin\Debug\Data.pdb
+C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\Data\bin\Debug\System.Data.SqlClient.dll
+C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\Data\bin\Debug\System.Data.SqlClient.xml
+C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\Data\obj\Debug\Data.csproj.AssemblyReference.cache
+C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\Data\obj\Debug\Data.dll
+C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\Data\obj\Debug\Data.pdb
