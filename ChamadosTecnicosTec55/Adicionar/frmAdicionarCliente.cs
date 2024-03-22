@@ -56,18 +56,16 @@ using System.Windows.Forms;
 
                     //Chama o dao para incluir o cliente
                                          clientedao.IncluiCliente(cliente);
-      }
+
+                    MessageBox.Show("Cadastrado com sucesso !");
+                    this.Close();
+                }
                             catch (Exception ex)
-     {
+                {
                                     MessageBox.Show("Erro ao cadastrar " , "Atencao", MessageBoxButtons.OK, MessageBoxIcon.Error);
-     }
-                            finally
-     {
-                                 MessageBox.Show("Cadastrado com sucesso !");
-
-     }
-
-                                 }
-                             }
+                }
             }
-}
+            }
+            }
+            }
+

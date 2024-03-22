@@ -28,3 +28,4 @@ C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\ChamadosTecnicosTec55\obj
 C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\ChamadosTecnicosTec55\obj\Debug\WinApp.csproj.CopyComplete
 C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\ChamadosTecnicosTec55\obj\Debug\ChamadosTecnicosTec55.exe
 C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\ChamadosTecnicosTec55\obj\Debug\ChamadosTecnicosTec55.pdb
+C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\ChamadosTecnicosTec55\obj\Debug\ChamadosTecnicosTec55.Adicionar.frmTecnicoAdicionar.resources
