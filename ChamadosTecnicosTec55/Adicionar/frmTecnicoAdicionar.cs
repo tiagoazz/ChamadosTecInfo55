@@ -57,11 +57,12 @@ namespace ChamadosTecnicosTec55.Adicionar
                 try
                 {
                     //preenche o objeto tecnicos
-                    tecnicos.Nome = txbNome.Text;
-                    tecnicos.Especialidade = txbEspecialidade.Text;
-                    tecnicos.Email = txbEmail.Text;
-                    tecnicos.Obs = txbObs.Text;
-                    tecnicos.Senha = txbSenha.Text;
+
+                    tecnicos.Nome = txbNome.Text.ToUpper();
+                    tecnicos.Especialidade = txbEspecialidade.Text.ToUpper();
+                    tecnicos.Email = txbEmail.Text.ToUpper();
+                    tecnicos.Obs = txbObs.Text.ToUpper();
+                    tecnicos.Senha = txbSenha.Text.ToUpper();
 
                     //Chama o dao para incluir o tecnico
             

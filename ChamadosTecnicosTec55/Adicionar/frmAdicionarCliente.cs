@@ -49,10 +49,10 @@ using System.Windows.Forms;
                             try
     {
                     //preenche o objeto cliente
-                                        cliente.Nome = txbNome.Text;
-                                        cliente.Profissao = txbProfissao.Text;
-                                        cliente.Setor = txbSetor.Text;
-                                        cliente.Obs = txbObs.Text;
+                                        cliente.Nome = txbNome.Text.ToUpper()   ;
+                                        cliente.Profissao = txbProfissao.Text.ToUpper();
+                                        cliente.Setor = txbSetor.Text.ToUpper();
+                                        cliente.Obs = txbObs.Text.ToUpper();
 
                     //Chama o dao para incluir o cliente
                                          clientedao.IncluiCliente(cliente);

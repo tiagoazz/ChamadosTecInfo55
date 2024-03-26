@@ -45,37 +45,41 @@
             // 
             // btnLimpar
             // 
-            this.btnLimpar.Location = new System.Drawing.Point(444, 378);
+            this.btnLimpar.BackColor = System.Drawing.Color.Orange;
+            this.btnLimpar.Location = new System.Drawing.Point(344, 378);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(75, 23);
-            this.btnLimpar.TabIndex = 17;
+            this.btnLimpar.TabIndex = 7;
             this.btnLimpar.Text = "Limpar";
-            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.UseVisualStyleBackColor = false;
             this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnSalvar
             // 
-            this.btnSalvar.Location = new System.Drawing.Point(219, 378);
+            this.btnSalvar.BackColor = System.Drawing.Color.Gold;
+            this.btnSalvar.Location = new System.Drawing.Point(119, 378);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(75, 23);
-            this.btnSalvar.TabIndex = 16;
+            this.btnSalvar.TabIndex = 6;
             this.btnSalvar.Text = "Salvar";
-            this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.UseVisualStyleBackColor = false;
             this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // txbObs
             // 
-            this.txbObs.Location = new System.Drawing.Point(153, 281);
+            this.txbObs.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.txbObs.Location = new System.Drawing.Point(53, 281);
             this.txbObs.Multiline = true;
             this.txbObs.Name = "txbObs";
             this.txbObs.Size = new System.Drawing.Size(455, 80);
-            this.txbObs.TabIndex = 14;
+            this.txbObs.TabIndex = 5;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Orange;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(152, 261);
+            this.label5.Location = new System.Drawing.Point(52, 261);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(85, 17);
             this.label5.TabIndex = 19;
@@ -84,8 +88,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Orange;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(152, 164);
+            this.label4.Location = new System.Drawing.Point(52, 164);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(42, 17);
             this.label4.TabIndex = 18;
@@ -93,16 +98,18 @@
             // 
             // txbEmail
             // 
-            this.txbEmail.Location = new System.Drawing.Point(153, 184);
+            this.txbEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.txbEmail.Location = new System.Drawing.Point(55, 184);
             this.txbEmail.Name = "txbEmail";
             this.txbEmail.Size = new System.Drawing.Size(456, 20);
-            this.txbEmail.TabIndex = 13;
+            this.txbEmail.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Orange;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(150, 110);
+            this.label3.Location = new System.Drawing.Point(50, 110);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(96, 17);
             this.label3.TabIndex = 15;
@@ -110,16 +117,18 @@
             // 
             // txbEspecialidade
             // 
-            this.txbEspecialidade.Location = new System.Drawing.Point(153, 130);
+            this.txbEspecialidade.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.txbEspecialidade.Location = new System.Drawing.Point(53, 130);
             this.txbEspecialidade.Name = "txbEspecialidade";
             this.txbEspecialidade.Size = new System.Drawing.Size(456, 20);
-            this.txbEspecialidade.TabIndex = 11;
+            this.txbEspecialidade.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Orange;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(150, 52);
+            this.label2.Location = new System.Drawing.Point(50, 52);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(99, 17);
             this.label2.TabIndex = 12;
@@ -127,16 +136,18 @@
             // 
             // txbNome
             // 
-            this.txbNome.Location = new System.Drawing.Point(153, 72);
+            this.txbNome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.txbNome.Location = new System.Drawing.Point(53, 72);
             this.txbNome.Name = "txbNome";
             this.txbNome.Size = new System.Drawing.Size(456, 20);
-            this.txbNome.TabIndex = 10;
+            this.txbNome.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.LavenderBlush;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(336, 9);
+            this.label1.Location = new System.Drawing.Point(236, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(132, 31);
             this.label1.TabIndex = 9;
@@ -145,8 +156,9 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Orange;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(152, 218);
+            this.label6.Location = new System.Drawing.Point(52, 218);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(49, 17);
             this.label6.TabIndex = 21;
@@ -154,16 +166,20 @@
             // 
             // txbSenha
             // 
-            this.txbSenha.Location = new System.Drawing.Point(153, 238);
+            this.txbSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.txbSenha.Location = new System.Drawing.Point(53, 238);
             this.txbSenha.Name = "txbSenha";
+            this.txbSenha.PasswordChar = '*';
             this.txbSenha.Size = new System.Drawing.Size(456, 20);
-            this.txbSenha.TabIndex = 20;
+            this.txbSenha.TabIndex = 4;
             // 
             // frmTecnicoAdicionar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.AutoSize = true;
+            this.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.ClientSize = new System.Drawing.Size(548, 411);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txbSenha);
             this.Controls.Add(this.btnLimpar);
@@ -177,8 +193,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txbNome);
             this.Controls.Add(this.label1);
+            this.ImeMode = System.Windows.Forms.ImeMode.On;
             this.Name = "frmTecnicoAdicionar";
             this.Text = "frmTecnicoAdicionar";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmTecnicoAdicionar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
