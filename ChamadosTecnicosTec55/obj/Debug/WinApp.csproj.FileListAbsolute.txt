@@ -30,3 +30,4 @@ C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\ChamadosTecnicosTec55\obj
 C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\ChamadosTecnicosTec55\obj\Debug\ChamadosTecnicosTec55.pdb
 C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\ChamadosTecnicosTec55\obj\Debug\ChamadosTecnicosTec55.Adicionar.frmTecnicoAdicionar.resources
 C:\Users\tiago.amjunior\source\repos\ChamadosTecInfo55\ChamadosTecnicosTec55\obj\Debug\ChamadosTecnicosTec55.frmPrincipal.resources
+C:\Users\tiago.amjunior\Source\Repos\ChamadosTecInfo55\ChamadosTecnicosTec55\obj\Debug\ChamadosTecnicosTec55.Alterar.frmGerirClientes.resources

@@ -76,6 +76,7 @@
             this.cLIENTEToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.C)));
             this.cLIENTEToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cLIENTEToolStripMenuItem.Text = "CLIENTE";
+            this.cLIENTEToolStripMenuItem.Click += new System.EventHandler(this.cLIENTEToolStripMenuItem_Click);
             // 
             // tECNICOToolStripMenuItem
             // 
@@ -84,18 +85,21 @@
             this.tECNICOToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.T)));
             this.tECNICOToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.tECNICOToolStripMenuItem.Text = "TECNICO";
+            this.tECNICOToolStripMenuItem.Click += new System.EventHandler(this.tECNICOToolStripMenuItem_Click);
             // 
             // gESTORDECHAMADOSToolStripMenuItem
             // 
             this.gESTORDECHAMADOSToolStripMenuItem.Name = "gESTORDECHAMADOSToolStripMenuItem";
             this.gESTORDECHAMADOSToolStripMenuItem.Size = new System.Drawing.Size(150, 20);
             this.gESTORDECHAMADOSToolStripMenuItem.Text = "GESTOR DE CHAMADOS ";
+            this.gESTORDECHAMADOSToolStripMenuItem.Click += new System.EventHandler(this.gESTORDECHAMADOSToolStripMenuItem_Click);
             // 
             // gESTORDECLIENTESToolStripMenuItem
             // 
             this.gESTORDECLIENTESToolStripMenuItem.Name = "gESTORDECLIENTESToolStripMenuItem";
             this.gESTORDECLIENTESToolStripMenuItem.Size = new System.Drawing.Size(130, 20);
             this.gESTORDECLIENTESToolStripMenuItem.Text = "GESTOR DE CLIENTES";
+            this.gESTORDECLIENTESToolStripMenuItem.Click += new System.EventHandler(this.gESTORDECLIENTESToolStripMenuItem_Click);
             // 
             // cALCULADORAToolStripMenuItem
             // 
