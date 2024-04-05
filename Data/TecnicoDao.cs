@@ -41,9 +41,9 @@ namespace Data
                         conexaoBd.Open();
                         comando.ExecuteNonQuery();
                     }
-                    catch (Exception ex )
+                    catch (Exception )
                     {
-                        throw new Exception("Erro ao Incluir Tecnicos:" + ex.Message);
+                        throw new Exception("Erro ao Incluir Tecnicos:{ ex.Message }");
                     }
                 }
 

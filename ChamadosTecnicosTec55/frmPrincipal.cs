@@ -75,7 +75,7 @@ namespace ChamadosTecnicosTec55
             var formcliente = new frmAdicionarCliente();
             //define o formulario pai
             formcliente.MdiParent = this;
-            formcliente.ShowDialog();
+            formcliente.Show();
 
             //ou  formcliente.ShowDialog(); se ultilizar retirar a linha mdiparetes
         }
@@ -95,10 +95,12 @@ namespace ChamadosTecnicosTec55
 
         private void gESTORDECLIENTESToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var formgerirclientes = new frmGerirClientes();
-            //define o formulario pai
-            formgerirclientes.MdiParent = this;
-            formgerirclientes.Show();
+      
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

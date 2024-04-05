@@ -60,7 +60,7 @@ using System.Windows.Forms;
                     MessageBox.Show("Cadastrado com sucesso !");
                     this.Close();
                 }
-                            catch (Exception ex)
+                            catch (Exception)
                 {
                                     MessageBox.Show("Erro ao cadastrar " , "Atencao", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }

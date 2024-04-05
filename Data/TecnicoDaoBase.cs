@@ -27,9 +27,9 @@ namespace Data
                         conexaoBd.Open();
                         comando.ExecuteNonQuery();
                     }
-                    catch (Exception ex)
+                    catch (Exception )
                     {
-                        throw new Exception("Erro ao Incluir Cliente:");
+                        throw new Exception("Erro ao Incluir Cliente: { ex.Message }");
                     }
                 }
 
