@@ -16,6 +16,9 @@ namespace ChamadosTecnicosTec55.Alterar
     public partial class frmGerirClientes : Form
     {
         string _conexao = ChamadosTecnicosTec55.Properties.Settings.Default.Conexao;
+
+        public IFormatProvider Value { get; private set; }
+
         public frmGerirClientes()
         {
             InitializeComponent();
@@ -66,6 +69,30 @@ namespace ChamadosTecnicosTec55.Alterar
             formcliente.Show();
 
             //ou  formcliente.ShowDialog(); se ultilizar retirar a linha mdiparetes
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // verifique se alguma limha selecionada do DGV
+            if (dgt1.SelectedRows.Count > 0)
+            {
+                // obtem o codigo do cliente da linha selecionada 
+                int codigo = Convert.ToInt32(dgt1.CurrentRow.Cells[0].Value);
+                var frmAlterarCliente = new frmAlterarCliente ();
+                frmAlterarCliente.ShowDialog();
+                //apos a tela 
+                ListarClientes();
+            }
+            else
+            {
+                //Exibe uma mensagem de aviso se nenhuma linha estiver selecionada 
+                MessageBox.Show("Selecione um registro para alteracaoes");
+            }
+        }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

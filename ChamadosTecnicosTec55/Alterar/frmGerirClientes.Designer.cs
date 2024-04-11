@@ -41,9 +41,12 @@
             // 
             // dgt1
             // 
+            this.dgt1.AllowUserToAddRows = false;
+            this.dgt1.AllowUserToDeleteRows = false;
             this.dgt1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgt1.Location = new System.Drawing.Point(30, 88);
             this.dgt1.Name = "dgt1";
+            this.dgt1.ReadOnly = true;
             this.dgt1.Size = new System.Drawing.Size(588, 289);
             this.dgt1.TabIndex = 0;
             // 
@@ -71,6 +74,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Alterar Cliente";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnExcluir
             // 
@@ -83,6 +87,7 @@
             this.btnExcluir.TabIndex = 3;
             this.btnExcluir.Text = "Excluir Cliente";
             this.btnExcluir.UseVisualStyleBackColor = false;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // txtBuscar
             // 

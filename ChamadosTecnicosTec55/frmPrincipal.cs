@@ -95,7 +95,10 @@ namespace ChamadosTecnicosTec55
 
         private void gESTORDECLIENTESToolStripMenuItem_Click(object sender, EventArgs e)
         {
-      
+         var frmGerirClientes = new frmGerirClientes();
+            //define o formulario pai
+           frmGerirClientes.MdiParent = this;
+            frmGerirClientes.Show();
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
