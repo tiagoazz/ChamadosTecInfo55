@@ -28,7 +28,7 @@ namespace ChamadosTecnicosTec55.Alterar
                 Cliente cliente = new Cliente();
                 ClienteDao clientedao = new ClienteDao(_conexao);
 
-                cliente = clientedao.obtemCliente(codigo);
+                cliente = clientedao.ObtemCliente(codigo);
                 //se o cliente nao foi encontrado
                 if (cliente == null)
                 {
@@ -40,7 +40,35 @@ namespace ChamadosTecnicosTec55.Alterar
                 txbNome.Text = cliente.Nome;
                 txbProfissao.Text = cliente.Profissao;
                 txbSetor.Text = cliente.Setor;
-                lbObs.Text = cliente.Obs;
+                txtObs.Text = cliente.Obs;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Cliente cliente = new Cliente();
+            ClienteDao clientedao = new ClienteDao(_conexao);
+
+            try
+            {
+                cliente.Nome = txbNome.Text;
+                cliente.Profissao = txbProfissao.Text;
+                cliente.Setor = txbSetor.Text;
+                cliente.Obs = txtObs.Text;
+
+                int codigo = Convert.ToInt32(txtid.Text);
+
+                cliente.CodigoCliente = codigo;
+
+                clientedao.AlterarCliente(cliente);
+                this.Close();
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
     }

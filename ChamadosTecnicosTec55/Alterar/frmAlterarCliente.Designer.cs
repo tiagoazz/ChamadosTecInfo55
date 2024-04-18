@@ -29,25 +29,27 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lbObs = new System.Windows.Forms.TextBox();
+            this.txtid = new System.Windows.Forms.TextBox();
+            this.lbSetor = new System.Windows.Forms.Label();
+            this.lbNome = new System.Windows.Forms.Label();
+            this.txtObs = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txbSetor = new System.Windows.Forms.TextBox();
             this.lbProf = new System.Windows.Forms.Label();
             this.txbProfissao = new System.Windows.Forms.TextBox();
             this.txbNome = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.lbNome = new System.Windows.Forms.Label();
-            this.lbSetor = new System.Windows.Forms.Label();
-            this.txtid = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.txtid);
             this.panel1.Controls.Add(this.lbSetor);
             this.panel1.Controls.Add(this.lbNome);
-            this.panel1.Controls.Add(this.lbObs);
+            this.panel1.Controls.Add(this.txtObs);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.txbSetor);
             this.panel1.Controls.Add(this.lbProf);
@@ -59,13 +61,41 @@
             this.panel1.Size = new System.Drawing.Size(799, 452);
             this.panel1.TabIndex = 16;
             // 
-            // lbObs
+            // txtid
             // 
-            this.lbObs.Location = new System.Drawing.Point(170, 315);
-            this.lbObs.Multiline = true;
-            this.lbObs.Name = "lbObs";
-            this.lbObs.Size = new System.Drawing.Size(455, 80);
-            this.lbObs.TabIndex = 20;
+            this.txtid.Location = new System.Drawing.Point(524, 52);
+            this.txtid.Name = "txtid";
+            this.txtid.ReadOnly = true;
+            this.txtid.Size = new System.Drawing.Size(100, 20);
+            this.txtid.TabIndex = 25;
+            // 
+            // lbSetor
+            // 
+            this.lbSetor.AutoSize = true;
+            this.lbSetor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSetor.Location = new System.Drawing.Point(168, 232);
+            this.lbSetor.Name = "lbSetor";
+            this.lbSetor.Size = new System.Drawing.Size(42, 17);
+            this.lbSetor.TabIndex = 24;
+            this.lbSetor.Text = "Setor";
+            // 
+            // lbNome
+            // 
+            this.lbNome.AutoSize = true;
+            this.lbNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNome.Location = new System.Drawing.Point(168, 115);
+            this.lbNome.Name = "lbNome";
+            this.lbNome.Size = new System.Drawing.Size(45, 17);
+            this.lbNome.TabIndex = 23;
+            this.lbNome.Text = "Nome";
+            // 
+            // txtObs
+            // 
+            this.txtObs.Location = new System.Drawing.Point(170, 315);
+            this.txtObs.Multiline = true;
+            this.txtObs.Name = "txtObs";
+            this.txtObs.Size = new System.Drawing.Size(455, 80);
+            this.txtObs.TabIndex = 20;
             // 
             // label5
             // 
@@ -118,33 +148,15 @@
             this.label1.TabIndex = 16;
             this.label1.Text = "Alterar Cliente";
             // 
-            // lbNome
+            // button1
             // 
-            this.lbNome.AutoSize = true;
-            this.lbNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNome.Location = new System.Drawing.Point(168, 115);
-            this.lbNome.Name = "lbNome";
-            this.lbNome.Size = new System.Drawing.Size(45, 17);
-            this.lbNome.TabIndex = 23;
-            this.lbNome.Text = "Nome";
-            // 
-            // lbSetor
-            // 
-            this.lbSetor.AutoSize = true;
-            this.lbSetor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbSetor.Location = new System.Drawing.Point(168, 232);
-            this.lbSetor.Name = "lbSetor";
-            this.lbSetor.Size = new System.Drawing.Size(42, 17);
-            this.lbSetor.TabIndex = 24;
-            this.lbSetor.Text = "Setor";
-            // 
-            // txtid
-            // 
-            this.txtid.Location = new System.Drawing.Point(524, 52);
-            this.txtid.Name = "txtid";
-            this.txtid.ReadOnly = true;
-            this.txtid.Size = new System.Drawing.Size(100, 20);
-            this.txtid.TabIndex = 25;
+            this.button1.Location = new System.Drawing.Point(245, 401);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 26;
+            this.button1.Text = "Ok";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmAlterarCliente
             // 
@@ -164,7 +176,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lbSetor;
         private System.Windows.Forms.Label lbNome;
-        private System.Windows.Forms.TextBox lbObs;
+        private System.Windows.Forms.TextBox txtObs;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txbSetor;
         private System.Windows.Forms.Label lbProf;
@@ -172,5 +184,6 @@
         private System.Windows.Forms.TextBox txbNome;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtid;
+        private System.Windows.Forms.Button button1;
     }
 }
