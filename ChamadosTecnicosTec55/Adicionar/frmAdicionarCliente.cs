@@ -36,7 +36,7 @@ using System.Windows.Forms;
     {
                   // Chama o objeto Cliente
                                         Cliente cliente = new Cliente();
-                                        ClienteDao clientedao = new ClienteDao(_conexao);
+                                        TecnicoDao clientedao = new TecnicoDao(_conexao);
 
                             if(string.IsNullOrWhiteSpace(txbNome.Text) || string.IsNullOrWhiteSpace(txbObs.Text) || string.IsNullOrWhiteSpace(txbProfissao.Text) || string.IsNullOrWhiteSpace(txbSetor.Text))
     {
@@ -55,7 +55,7 @@ using System.Windows.Forms;
                                         cliente.Obs = txbObs.Text.ToUpper();
 
                     //Chama o dao para incluir o cliente
-                                         clientedao.IncluiCliente(cliente);
+                    clientedao.IncluirClientes(cliente);
 
                     MessageBox.Show("Cadastrado com sucesso !");
                     this.Close();

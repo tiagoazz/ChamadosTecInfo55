@@ -49,6 +49,7 @@
             this.dgt1.ReadOnly = true;
             this.dgt1.Size = new System.Drawing.Size(588, 289);
             this.dgt1.TabIndex = 0;
+            this.dgt1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgt1_CellContentClick);
             // 
             // button1
             // 
@@ -134,8 +135,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dgt1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "frmGerirClientes";
-            this.Text = "frmGerirClientes";
+            this.Name = "frmGerirTecnicos";
+            this.Text = "frmGerirTecnicos";
             this.Load += new System.EventHandler(this.frmGerirClientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgt1)).EndInit();
             this.ResumeLayout(false);

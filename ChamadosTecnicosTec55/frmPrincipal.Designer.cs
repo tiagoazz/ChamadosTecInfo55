@@ -33,7 +33,7 @@
             this.cADASTROToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cLIENTEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tECNICOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gESTORDECHAMADOSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.GestorTecnicos = new System.Windows.Forms.ToolStripMenuItem();
             this.gESTORDECLIENTESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cALCULADORAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dOCUMENTAÇÃOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -48,7 +48,7 @@
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cADASTROToolStripMenuItem,
-            this.gESTORDECHAMADOSToolStripMenuItem,
+            this.GestorTecnicos,
             this.gESTORDECLIENTESToolStripMenuItem,
             this.cALCULADORAToolStripMenuItem,
             this.dOCUMENTAÇÃOToolStripMenuItem,
@@ -75,7 +75,7 @@
             this.cLIENTEToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.cLIENTEToolStripMenuItem.Name = "cLIENTEToolStripMenuItem";
             this.cLIENTEToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.C)));
-            this.cLIENTEToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cLIENTEToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.cLIENTEToolStripMenuItem.Text = "CLIENTE";
             this.cLIENTEToolStripMenuItem.Click += new System.EventHandler(this.cLIENTEToolStripMenuItem_Click);
             // 
@@ -84,16 +84,16 @@
             this.tECNICOToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.tECNICOToolStripMenuItem.Name = "tECNICOToolStripMenuItem";
             this.tECNICOToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.T)));
-            this.tECNICOToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tECNICOToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.tECNICOToolStripMenuItem.Text = "TECNICO";
             this.tECNICOToolStripMenuItem.Click += new System.EventHandler(this.tECNICOToolStripMenuItem_Click);
             // 
-            // gESTORDECHAMADOSToolStripMenuItem
+            // GestorTecnicos
             // 
-            this.gESTORDECHAMADOSToolStripMenuItem.Name = "gESTORDECHAMADOSToolStripMenuItem";
-            this.gESTORDECHAMADOSToolStripMenuItem.Size = new System.Drawing.Size(150, 20);
-            this.gESTORDECHAMADOSToolStripMenuItem.Text = "GESTOR DE CHAMADOS ";
-            this.gESTORDECHAMADOSToolStripMenuItem.Click += new System.EventHandler(this.gESTORDECHAMADOSToolStripMenuItem_Click);
+            this.GestorTecnicos.Name = "GestorTecnicos";
+            this.GestorTecnicos.Size = new System.Drawing.Size(135, 20);
+            this.GestorTecnicos.Text = "GESTOR DE TECNICOS";
+            this.GestorTecnicos.Click += new System.EventHandler(this.gESTORDECHAMADOSToolStripMenuItem_Click);
             // 
             // gESTORDECLIENTESToolStripMenuItem
             // 
@@ -158,7 +158,7 @@
         private System.Windows.Forms.ToolStripMenuItem cADASTROToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cLIENTEToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tECNICOToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gESTORDECHAMADOSToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem GestorTecnicos;
         private System.Windows.Forms.ToolStripMenuItem gESTORDECLIENTESToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cALCULADORAToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dOCUMENTAÇÃOToolStripMenuItem;

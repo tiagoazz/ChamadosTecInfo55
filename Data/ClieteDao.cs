@@ -8,12 +8,12 @@ using System.Data.SqlClient; // ADO para SQL SERVER
 
 namespace Data
 {
-    public class ClienteDao
+    public class ClientesDao
     {
         private string _conexao;
 
         // Metodo Construtor => Inicializa Objeto buscando Conexao
-        public ClienteDao(string conexao)
+        public ClientesDao(string conexao)
         {
             // RECEBA Conexão 
             _conexao = conexao;
@@ -146,8 +146,34 @@ namespace Data
             
         }
 
+            //excluir clientes 
+
+          
+
+        }
+        public void ExcluirCliente(int codigoCliente)
+        {
+            const string query = @"delete from Clientes where CodigoCliente = @CodigoCliente";
 
 
+            try
+            {
+                using (var conexaoBd = new SqlConnection(_conexao))
+                using (var comando = new SqlCommand(query, conexaoBd))
+                {
+                    comando.Parameters.AddWithValue("@codigoCliente", codigoCliente);
+                    conexaoBd.Open();
+                    comando.ExecuteNonQuery();
+
+
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Erro ao excluir{ex.Message}", ex);
+            }
         }
     }
 }

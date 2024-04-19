@@ -26,7 +26,7 @@ namespace ChamadosTecnicosTec55.Alterar
 
                 // verifica se o codigo e maior que zero
                 Cliente cliente = new Cliente();
-                ClienteDao clientedao = new ClienteDao(_conexao);
+                ClientesDao clientedao = new ClientesDao(_conexao);
 
                 cliente = clientedao.ObtemCliente(codigo);
                 //se o cliente nao foi encontrado
@@ -47,7 +47,7 @@ namespace ChamadosTecnicosTec55.Alterar
         private void button1_Click(object sender, EventArgs e)
         {
             Cliente cliente = new Cliente();
-            ClienteDao clientedao = new ClienteDao(_conexao);
+            TecnicoDao clientedao = new TecnicoDao(_conexao);
 
             try
             {

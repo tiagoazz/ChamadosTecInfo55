@@ -67,7 +67,7 @@ namespace ChamadosTecnicosTec55.Adicionar
                     //Chama o dao para incluir o tecnico
             
 
-                    tecnicodao.IncluiTecnicos(tecnicos);
+                    tecnicodao.IncluirTecnicos(tecnicos);
 
                     MessageBox.Show("Cadastrado com sucesso !");
                     this.Close();
